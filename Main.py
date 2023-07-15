@@ -173,7 +173,7 @@ class CustomOutputParser(AgentOutputParser):
 
 st.set_page_config(layout = "wide")
 
-st.title("Agriculture Web App")
+st.title("Healthcare Web App")
 # st.markdown('_The headings and descriptions given below are generated using LLMs._')
 
 llm_predictor = LLMPredictor(llm = ChatOpenAI(temperature = 0, model_name = 'gpt-3.5-turbo', max_tokens = -1))

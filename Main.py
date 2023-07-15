@@ -73,7 +73,7 @@ def preprocessing():
         ))
     st.header('Document Headings and Descriptions -')
 
-    for i in range(4):
+    for i in range(len(names)):
         st.subheader(f"{i + 1}) " + names[i])
         st.write(descriptions[i])
 

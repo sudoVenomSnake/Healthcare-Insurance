@@ -1,4 +1,4 @@
-llama-index==0.6.25.post1
+llama-index==0.7.16
 streamlit
-langchain
+langchain==0.0.251
 openai
